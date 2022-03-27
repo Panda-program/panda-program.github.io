@@ -155,42 +155,42 @@ a:hover {
 
 /* Vlozenie obrázkov */
 .section-products #product-1 .part-1::before {
-  background: url("/img/kosela/kosela_1.jpg") no-repeat center;
+  background: url("/eshop/img/kosela/kosela_1.jpg") no-repeat center;
   background-size: cover;
   transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-  background: url("/img/kosela/kosela_2.jpg") no-repeat center;
+  background: url("/eshop/img/kosela/kosela_2.jpg") no-repeat center;
   background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-  background: url("/img/kosela/kosela_3.jpg") no-repeat center;
+  background: url("/eshop/img/kosela/kosela_3.jpg") no-repeat center;
   background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-  background: url("/img/kosela/kosela_4.jpg") no-repeat center;
+  background: url("/eshop/img/kosela/kosela_4.jpg") no-repeat center;
   background-size: cover;
 }
 .section-products #product-5 .part-1::before {
-  background: url("/img/kosela/kosela_5.jpg") no-repeat center;
+  background: url("/eshop/img/kosela/kosela_5.jpg") no-repeat center;
   background-size: cover;
   transition: all 0.3s;
 }
 
 .section-products #product-6 .part-1::before {
-  background: url("/img/kosela/kosela_6.jpg") no-repeat center;
+  background: url("/eshop/img/kosela/kosela_6.jpg") no-repeat center;
   background-size: cover;
 }
 
 .section-products #product-7 .part-1::before {
-  background: url("/img/kosela/kosela_7.jpg") no-repeat center;
+  background: url("/eshop/img/kosela/kosela_7.jpg") no-repeat center;
   background-size: cover;
 }
 
 .section-products #product-8 .part-1::before {
-  background: url("/img/kosela/kosela_8.jpg") no-repeat center;
+  background: url("/eshop/img/kosela/kosela_8.jpg") no-repeat center;
   background-size: cover;
 }

@@ -1,25 +1,102 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #444444;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
 }
 
-.sidebar {
-  background-color: white;
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
-.scroll {
-  max-height: 200px;
-  overflow-y: scroll;
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
-a,
-a:hover {
-  text-decoration: none;
-  color: inherit;
+h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1d1d1d;
+}
+
+h6 {
+  color: #d8d8d8;
+}
+
+button {
+  font-size: 0.8rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background-color: #1d1d1d;
+  color: aliceblue;
+  padding: 13px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a3833;
+}
+
+.navbar {
+  font-size: 16px;
+  top: 0;
+  left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 0 20px;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar i.active {
+  color: coral;
+}
+
+.navbar i {
+  font-size: 1.2rem;
+  padding: 0 7px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#home {
+  background-image: url("img/back.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: top 60px center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#home span {
+  color: coral;
 }
 
 .section-products {
@@ -49,9 +126,9 @@ a:hover {
 
 .section-products .single-product .part-1 {
   position: relative;
-  height: 350px;
+  height: 400px;
   max-height: 400px;
-  min-height: 400px;
+  min-height: 50px;
   min-width: 20px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -155,42 +232,42 @@ a:hover {
 
 /* Vlozenie obrázkov */
 .section-products #product-1 .part-1::before {
-  background: url("/eshop/img/mikina/mikina_1.jpg") no-repeat center;
+  background: url("img/tricko/tricko_1.jpg") no-repeat center;
   background-size: cover;
   transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-  background: url("/eshop/img/mikina/mikina_2.jpg") no-repeat center;
+  background: url("img/tricko/tricko_2.jpg") no-repeat center;
   background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-  background: url("/eshop/img/mikina/mikina_3.jpg") no-repeat center;
+  background: url("img/tricko/tricko_3.jpg") no-repeat center;
   background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-  background: url("/eshop/img/mikina/mikina_4.jpg") no-repeat center;
+  background: url("img/tricko/tricko_4.jpg") no-repeat center;
   background-size: cover;
 }
 .section-products #product-5 .part-1::before {
-  background: url("/eshop/img/mikina/mikina_5.jpg") no-repeat center;
+  background: url("img/tricko/tricko_5.jpg") no-repeat center;
   background-size: cover;
   transition: all 0.3s;
 }
 
 .section-products #product-6 .part-1::before {
-  background: url("/eshop/img/mikina/mikina_6.jpg") no-repeat center;
+  background: url("img/tricko/tricko_6.jpg") no-repeat center;
   background-size: cover;
 }
 
 .section-products #product-7 .part-1::before {
-  background: url("/eshop/img/mikina/mikina_7.jpg") no-repeat center;
+  background: url("img/tricko/tricko_7.jpg") no-repeat center;
   background-size: cover;
 }
 
 .section-products #product-8 .part-1::before {
-  background: url("/eshop/img/mikina/mikina_8.jpg") no-repeat center;
+  background: url("img/tricko/tricko_8.jpg") no-repeat center;
   background-size: cover;
 }
